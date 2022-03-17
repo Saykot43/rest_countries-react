@@ -1,0 +1,13 @@
+.text {
+  margin: 20px;
+  color: rgb(68, 37, 241);
+  background-color: rgb(186, 243, 243);
+  padding: 10px;
+  border: 2px solid;
+}
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
